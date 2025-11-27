@@ -1,0 +1,41 @@
+/* --- Global Navigation Styles --- */
+
+/* Style the navigation container */
+nav {
+    background-color: #333; /* Dark background */
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Use a flexible container for list items */
+nav ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Arrange links horizontally */
+    gap: 20px; /* Space between links */
+}
+
+/* Style the link anchors */
+nav a {
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.1em;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover and Focus States */
+nav a:hover,
+nav a:focus {
+    background-color: #575757; /* Slightly lighter background on hover */
+    color: #ffd700; /* Gold/Yellow text for emphasis */
+}
+
+/* Angular Router Link Active Style (for the currently active page) */
+.active-link {
+    background-color: #007bff; /* Primary blue color to highlight the active link */
+    color: #fff !important;
+    font-weight: bold;
+}

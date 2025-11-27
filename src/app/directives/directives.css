@@ -1,0 +1,90 @@
+/* Buttons */
+.btn-primary {
+  padding: 0.5rem 1rem;
+  background: #4f46e5;
+  color: white;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: 0.2s;
+}
+.btn-primary:hover {
+  background: #4338ca;
+}
+
+.btn-secondary {
+  padding: 0.5rem 1rem;
+  background: #e5e7eb;
+  color: #111827;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: 0.2s;
+}
+.btn-secondary:hover {
+  background: #d1d5db;
+}
+
+/* Text Fade */
+.fade-in-text {
+  animation: fadeIn 0.3s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Badges */
+.badge {
+  padding: 4px 10px;
+  border-radius: 9999px;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 600;
+  /* Ensures badge is inline-block to allow padding/width */
+  display: inline-block;
+}
+.bg-blue { background: #3b82f6; }
+.bg-red { background: #ef4444; }
+.bg-green { background: #10b981; }
+.bg-gray { background: #6b7280; }
+
+/* Student rows */
+.row-active {
+  background: #ecfdf5;
+}
+.row-inactive {
+  background: #f9fafb;
+}
+
+/* Status Badges */
+.badge-active {
+  background: #bbf7d0;
+  color: #065f46;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  display: inline-flex; /* Ensures it looks like a proper status badge */
+}
+.badge-inactive {
+  background: #fecaca;
+  color: #7f1d1d;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  display: inline-flex; /* Ensures it looks like a proper status badge */
+}
+
+/* Inputs */
+.input-text {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+}
+/* Base styles for the table to ensure responsiveness */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* Helps with fixed column widths on smaller screens */
+}
